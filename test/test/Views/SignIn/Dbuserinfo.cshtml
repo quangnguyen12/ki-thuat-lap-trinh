@@ -1,0 +1,45 @@
+﻿@model IEnumerable<test.Models.tblUserInfo>
+
+@{
+    ViewBag.Title = "Dbuserinfo";
+}
+
+<h2>Dbuserinfo</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.iduser)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.usernameus)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.passwordus)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.iduser)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.usernameus)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.passwordus)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+            @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+        </td>
+    </tr>
+}
+
+</table>

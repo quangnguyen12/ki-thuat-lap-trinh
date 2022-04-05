@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBusersignuploginModelStoreContainer" CdmEntityContainer="DBusersignuploginEntities">
+    <EntitySetMapping Name="tblUserInfoes">
+      <EntityTypeMapping TypeName="DBusersignuploginModel.tblUserInfo">
+        <MappingFragment StoreEntitySet="tblUserInfo">
+          <ScalarProperty Name="iduser" ColumnName="iduser" />
+          <ScalarProperty Name="usernameus" ColumnName="usernameus" />
+          <ScalarProperty Name="passwordus" ColumnName="passwordus" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

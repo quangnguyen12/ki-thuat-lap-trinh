@@ -77,3 +77,7 @@ D:\cong-nghe-phan-mem-v3\test\test\obj\Debug\test.csproj.CoreCompileInputs.cache
 D:\cong-nghe-phan-mem-v3\test\test\obj\Debug\test.csproj.CopyComplete
 D:\cong-nghe-phan-mem-v3\test\test\obj\Debug\test.dll
 D:\cong-nghe-phan-mem-v3\test\test\obj\Debug\test.pdb
+D:\cong-nghe-phan-mem-v3\test\test\bin\EntityFramework.dll
+D:\cong-nghe-phan-mem-v3\test\test\bin\EntityFramework.SqlServer.dll
+D:\cong-nghe-phan-mem-v3\test\test\bin\EntityFramework.xml
+D:\cong-nghe-phan-mem-v3\test\test\bin\EntityFramework.SqlServer.xml
